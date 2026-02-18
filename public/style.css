@@ -126,6 +126,21 @@ h1 {
     background: #ff3838;
 }
 
+.edit-btn {
+    background: #ffa726;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.edit-btn:hover {
+    background: #fb8c00;
+}
+
 .stats {
     display: flex;
     justify-content: space-between;
